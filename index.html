@@ -5,18 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>INSIDE. DESIGN STUDIO</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000606">
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon_pacckage_v0.16/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon_pacckage_v0.16/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon_pacckage_v0.16/favicon-16x16.png">
+        <link rel="manifest" href="../favicon_pacckage_v0.16/site.webmanifest">
+        <link rel="mask-icon" href="../favicon_pacckage_v0.16/safari-pinned-tab.svg" color="#000606">
         <meta name="msapplication-TileColor" content="#000606">
         <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <header>
+        <header id="home">
             <nav>
-            <img src="img/logo.jpg" alt="logo">
+            <img src="img/logo.jpg" class="logo" alt="logo">
             <ul class="menu">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
@@ -26,11 +27,10 @@
             </nav>
             <div class="banner">
             <h1>DESIGN STUDIO</h1>
-            <img src="img/design-main-pic.jpg" alt="design-main-pic">
             </div>
         </header>
         <main>
-            <section>
+            <section id="projects">
                 <h2>PROJECTS</h2>
                 <img src="img/design-project1-childroom.jpg" alt="design-project1-childroom">
                 <img src="img/design-project2-livingroom.jpg" alt="design-project2-livingroom">
@@ -40,7 +40,7 @@
                 <br>
                 <input type="button" value="more projects ...">
             </section>
-            <section>
+            <section id="about-us">
                 <h2>ABOUT US</h2>
                 <img src="img/our-team.jpg" alt="our-team">
                 <h3>team of proffesionals</h3>
@@ -50,7 +50,7 @@
                 <input type="button" value="download">
             </section>
         </main>
-        <footer>
+        <footer id="contacts">
             <h2>CONTACTS</h2>
             <form method="POST" action="https://formspree.io/innakondur@gmail.com">
                 <input type="text" name="user-name" placeholder="Name">
