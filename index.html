@@ -17,7 +17,7 @@
     <body>
         <header id="home">
             <nav>
-            <img src="img/logo.jpg" class="logo" alt="logo">
+            <img src="img/logo.jpg" class="logo" alt="INSIDE logo">
             <ul class="menu">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
@@ -26,7 +26,8 @@
             </ul>
             </nav>
             <div class="banner">
-            <h1>DESIGN STUDIO</h1>
+            <h1 id="text-design">DESIGN</h1>
+            <h1 id="text-studio">STUDIO</h1>
             </div>
         </header>
         <main>
@@ -42,12 +43,23 @@
             </section>
             <section id="about-us">
                 <h2>ABOUT US</h2>
-                <img src="img/our-team.jpg" alt="our-team">
-                <h3>team of proffesionals</h3>
-                <h3>individual approach</h3>
-                <h3>repair supervision</h3>
-                <h3>PRICELIST</h3>
-                <input type="button" value="download">
+                  <div class="team-picture">
+                    <img src="img/our-team.jpg" alt="our-team">
+                  </div>
+                  <div class="team-characteristics-icons">
+                    <img src="img/team-icon.png"alt="Team icon" width="32" height="29">
+                    <img src="img/puzzle-icon.png"alt="Puzzle icon" width="32" height="29">
+                    <img src="img/eye-icon.png"alt="Eye icon" width="32" height="29">
+                  </div>
+                  <div class="team-characteristics-text">
+                    <h3>team of proffesionals</h3>
+                    <h3>individual approach</h3>
+                    <h3>repair supervision</h3>
+                  </div>
+                  <div class="pricelist">
+                    <h3>PRICELIST</h3>
+                    <input type="button" value="download">
+                  </div>
             </section>
         </main>
         <footer id="contacts">
@@ -63,6 +75,8 @@
                 <br>
                 <input type="submit" value="SEND">
             </form>
+            <a href="https://facebook.com"><img src="facebook-icon.png"></a>
+            <a href="https://instagram.com"><img src="instagram-icon.png"></a>
             <input type="button" value="email">
             <input type="button" value="telephone">
             <input type="button" value="facebook">
