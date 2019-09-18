@@ -79,7 +79,7 @@
                     <img src="img/design-project3-livingroom.jpg" class="project3" alt="Livingroom in classic style with accent yellow chair">
                     <img src="img/design-project4-bathroom.jpg" class="project4" alt="Bathroom in classic style in white color dark-green furniture">
                     <img src="img/design-project5-bedroom.jpg" class="project5" alt="Bedroom in classic style in white and gray colors">
-                    <a href="projects.html" class="more-projects">more projects ...</a>
+                <a href="projects.html" class="more-projects">more projects ...</a>
                 </div>
             </section>
             <section id="about-us">
@@ -108,29 +108,34 @@
         </main>
         <footer id="contacts">
             <h2>CONTACTS</h2>
-            <form method="POST" action="https://formspree.io/innakondur@gmail.com">
-                <input type="text" name="user-name" placeholder="Name">
-                <br>
-                <input type="email" name="user-email" placeholder="Email">
-                <br>
-                <input type="tel" name="user-tel" placeholder="Telephone">
-                <br>
-                <input type="text" name="your-massage" placeholder="Your massage">
-                <br>
-                <input type="submit" value="SEND">
-            </form>
-            <a href="https://facebook.com">
-                <img src="img/facebook-icon.png" alt="Facebook icon" width="35" height="35"> https://facebook.com/insidedesign
-            </a>
-            <a href="https://instagram.com">
-                <img src="img/instagram-icon.png" alt="Instagram icon" width="35" height="35"> https://instagram.com/insidedesign
-            </a>
-            <a href="mailto:office@insidedesign.com">
-                <img src="img/mail-icon.png" alt="Mail icon" width="35" height="35"> office@insidedesign.com
-            </a>
-            <a href="tel:+380000000000">
-                <img src="img/phone-icon.png" alt="Phone icon" width="35" height="35"> +38 000 000 00 00
-            </a>
+            <div class="contacts">
+                <form method="POST" action="https://formspree.io/innakondur@gmail.com" class="contact-form">
+                    <input type="text" name="user-name" placeholder="Name">
+                    <br>
+                    <input type="email" name="user-email" placeholder="Email">
+                    <br>
+                    <input type="tel" name="user-tel" placeholder="Telephone">
+                    <br>
+                    <textarea name="your-message" placeholder="Your message" rows="5" cols="50">
+                    </textarea>
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary">SEND</button>
+                </form>
+                <nav class="get-contact">
+                    <a href="https://facebook.com">
+                        <img src="img/facebook-icon.png" alt="Facebook icon" width="30" height="30">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="img/instagram-icon.png" alt="Instagram icon" width="30" height="30">
+                    </a>
+                    <a href="mailto:office@insidedesign.com">
+                        <img src="img/mail-icon.png" alt="Mail icon" width="30" height="30">
+                    </a>
+                    <a href="tel:+380000000000">
+                        <img src="img/phone-icon.png" alt="Phone icon" width="30" height="30">
+                    </a>
+                </nav>
+            </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
